@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders correctly it should render  1`] = `
+<div
+  className="container"
+>
+  <Header
+    name=""
+    variant="h6"
+  />
+  <Table
+    columns={
+      Array [
+        "Date",
+        "Time",
+        "Temperature °F",
+        "Weather Description",
+        "",
+      ]
+    }
+    data={Array []}
+  />
+</div>
+`;
+
+exports[`testing the method componentDidUpdate trigger a componentDidUpdate when the prevProps and the currentProps are different 1`] = `
+<div
+  className="container"
+>
+  <Header
+    name=""
+    variant="h6"
+  />
+  <Table
+    columns={
+      Array [
+        "Date",
+        "Time",
+        "Temperature °F",
+        "Weather Description",
+        "",
+      ]
+    }
+    data={Array []}
+  />
+</div>
+`;
