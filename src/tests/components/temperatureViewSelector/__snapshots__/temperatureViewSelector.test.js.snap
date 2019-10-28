@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshots  match snapshot 1`] = `
+<div
+  className="tab"
+>
+  <TabSelector
+    tabData={
+      Array [
+        Object {
+          "component": <CurrentTemperature />,
+          "label": "Current Temperature",
+        },
+        Object {
+          "component": <FiveDayTemperature />,
+          "label": "5 Day Forecast",
+        },
+      ]
+    }
+  />
+</div>
+`;
