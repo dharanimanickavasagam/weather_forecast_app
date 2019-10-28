@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders component TableHeader render the table data with the passed data props 1`] = `
+<thead>
+  <tr>
+    <th
+      key="0"
+      scope="col"
+    >
+      Pressure
+    </th>
+    <th
+      key="1"
+      scope="col"
+    >
+      Humidity
+    </th>
+    <th
+      key="2"
+      scope="col"
+    >
+      Min °F
+    </th>
+    <th
+      key="3"
+      scope="col"
+    >
+      Max °F
+    </th>
+  </tr>
+</thead>
+`;

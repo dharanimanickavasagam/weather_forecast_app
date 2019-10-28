@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders component TableBody render the table data with the passed data props 1`] = `
+<tbody>
+  <tr
+    key="0"
+  >
+    <td
+      key="0"
+    >
+      1017
+    </td>
+    <td
+      key="1"
+    >
+      87
+    </td>
+    <td
+      key="2"
+    >
+      46
+    </td>
+    <td
+      key="3"
+    >
+      52
+    </td>
+  </tr>
+</tbody>
+`;

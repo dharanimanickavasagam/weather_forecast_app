@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders component Table it should render the component correctly with the passed props 1`] = `
+<table
+  className="table table-hover text-center"
+>
+  <TableHeader
+    columns={
+      Array [
+        "Pressure",
+        "Humidity",
+        "Min °F",
+        "Max °F",
+      ]
+    }
+  />
+  <TableBody
+    data={
+      Array [
+        Object {
+          "humidity": 87,
+          "max_temp": 52,
+          "min_temp": 46,
+          "pressure": 1017,
+        },
+      ]
+    }
+  />
+</table>
+`;
