@@ -1,0 +1,13 @@
+.flexContainer {
+    display: flex;
+    justify-content: center
+}
+
+.flexContainer__weather {
+    margin: auto 0;
+    font-size: 2em;
+}
+
+.main {
+    text-align: center;
+}

@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders component when isLoading is false it should render the current city location's weather details with mock data 1`] = `
+<main
+  className="container"
+>
+  <Header
+    name=""
+    variant="h6"
+  />
+  <div
+    className="flexContainer"
+  >
+    <div
+      className="flexContainer__weatherIcon"
+    >
+      <img
+        alt="weather_icon"
+        src="http://openweathermap.org/img/wn/01n@2x.png"
+      />
+    </div>
+    <div
+      className="flexContainer__weather"
+    >
+      72
+      °F
+    </div>
+  </div>
+  <div
+    className="weatherDetails"
+  >
+    Clear sky
+  </div>
+  <div
+    className="dateTime"
+  >
+    Tuesday, 07-02-2019 19:20
+  </div>
+  <Table
+    columns={
+      Array [
+        "Pressure (hpa)",
+        "Humidity %",
+        "Min °F",
+        "Max °F",
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "humidity": 93,
+          "pressure": 1024,
+          "temp_max": 72,
+          "temp_min": 72,
+        },
+      ]
+    }
+  />
+</main>
+`;
+
+exports[`it should not render the component when isLoading is true it should not render weather details when data is loading, isLoading:true 1`] = `
+<main
+  className="container"
+>
+  <div
+    className="loading"
+  >
+    Loading...
+  </div>
+</main>
+`;
+
+exports[`match snapshots with previous  match snapshot 1`] = `
+<main
+  className="container"
+>
+  <Header
+    name=""
+    variant="h6"
+  />
+  <div
+    className="flexContainer"
+  >
+    <div
+      className="flexContainer__weatherIcon"
+    >
+      <img
+        alt="weather_icon"
+        src="http://openweathermap.org/img/wn/undefined@2x.png"
+      />
+    </div>
+    <div
+      className="flexContainer__weather"
+    >
+      72
+      °F
+    </div>
+  </div>
+  <div
+    className="weatherDetails"
+  />
+  <div
+    className="dateTime"
+  >
+    Tuesday, 07-02-2019 19:20
+  </div>
+  <Table
+    columns={
+      Array [
+        "Pressure (hpa)",
+        "Humidity %",
+        "Min °F",
+        "Max °F",
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "temp_max": 72,
+          "temp_min": 72,
+        },
+      ]
+    }
+  />
+</main>
+`;
+
+exports[`testing the method componentDidUpdate trigger a componentDidUpdate when the prevProps and the currentProps are different 1`] = `
+<main
+  className="container"
+>
+  <div
+    className="loading"
+  >
+    Loading...
+  </div>
+</main>
+`;
