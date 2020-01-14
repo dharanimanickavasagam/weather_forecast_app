@@ -7,3 +7,5 @@ export const getCurrentTemperature = async (lat, lon) => {
   );
   return data;
 };
+
+//test 1
