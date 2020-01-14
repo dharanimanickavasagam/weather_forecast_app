@@ -9,3 +9,5 @@ export const getCurrentTemperature = async (lat, lon) => {
 };
 
 //test 1
+
+//test 2
