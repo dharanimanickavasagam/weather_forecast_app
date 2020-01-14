@@ -19,3 +19,5 @@ export const getCurrentTemperature = async (lat, lon) => {
 // branch 6 changes 1
 
 // branch 6 chanes 2
+
+// branch 7 changes
