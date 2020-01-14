@@ -15,3 +15,5 @@ export const getFiveDayTemperature = async (lat, lon) => {
 // branch 6 changes 2
 
 // branch 6 another change
+
+//changes after rebase in branch 5
