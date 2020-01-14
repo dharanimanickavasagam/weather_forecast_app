@@ -7,3 +7,15 @@ export const getCurrentTemperature = async (lat, lon) => {
   );
   return data;
 };
+
+//test 1
+
+//test 2
+
+//test 3 modified in branch 4
+
+//test 4 comment from branch 4
+
+// branch 6 changes 1
+
+// branch 6 chanes 2
